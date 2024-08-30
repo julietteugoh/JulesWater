@@ -116,6 +116,7 @@ li:hover .dropdown {
   background-color: #ffd078;
 }
 .bodyDiv {
+  margin: 20px;
   background-color: rgba(7, 115, 238, 0.5);
   height: 100vh;
   width: 100vw;
@@ -126,13 +127,13 @@ li:hover .dropdown {
   font-size: 6.5rem;
   font-weight: bold;
   color: white;
-  padding-top: 40px;
-  width: 70%;
+  padding: 40px;
+  width: 80%;
   height: 40%;
 }
 .bodyDiv .p2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 50px;
+  padding: 5%;
   color: white;
   font-style: italic;
   width: 45%;
@@ -350,7 +351,6 @@ li:hover .dropdown {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 .back h1 {
   padding-top: 120px;
