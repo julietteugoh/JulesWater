@@ -127,24 +127,22 @@ li:hover .dropdown {
   font-weight: bold;
   color: white;
   padding-top: 40px;
-  padding-left: 40px;
   width: 70%;
-  height: 50%;
+  height: 40%;
 }
 .bodyDiv .p2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 10px;
+  padding: 50px;
   color: white;
   font-style: italic;
   width: 45%;
+  height: 20%;
 }
 .btn {
   display: flex;
   margin: 40px;
   width: 50vw;
-  height: 100px;
+  height: 10%;
   gap: 40px;
   align-items: center;
   justify-content: flex-start;
