@@ -142,6 +142,9 @@ li:hover .dropdown {
 .btn {
   display: flex;
   margin: 40px;
+  width: 50vw;
+  height: 100px;
+  gap: 40px;
   align-items: center;
   justify-content: flex-start;
 }
@@ -151,7 +154,6 @@ li:hover .dropdown {
   border-radius: 30px;
   color: #ffd078;
   background-color: rgb(16, 16, 100);
-  margin-top: 60px;
   border: none;
 }
 .bodyDiv button:hover {
