@@ -1,2 +1,4 @@
-const facebook = document.getElementById("facebook");
-facebook.onclick = function () {};
+const contactUs = document.getElementById("contactUs");
+contactUs.addEventListener("mouseover", function () {
+  contactUs.innerHTML = "Click Me";
+});
