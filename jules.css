@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+@media only screen and (min-width:768px){
+  
+
 .head {
   justify-content: space-around;
   border-bottom: 2px solid blue;
@@ -11,7 +14,9 @@
   justify-content: space-between;
   height: 50px;
   width: 100vw;
+
 }
+
 .para {
   display: flex;
   flex-direction: row;
@@ -23,10 +28,12 @@
   color: white;
   background-color: #000b76;
 }
+
 .para .fa-solid {
   font-size: 1.3rem;
   color: white;
 }
+
 .contact {
   background-color: #000b76;
   display: flex;
@@ -39,9 +46,11 @@
   font-weight: bold;
   font-size: 1.6rem;
 }
+
 .contact i {
   color: white;
 }
+
 .contact i:hover {
   color: skyblue;
 }
@@ -82,12 +91,17 @@
   width: 100%;
   justify-content: space-between;
   display: flex;
+  border: 10px solid green;
 }
+
 #Header-list img {
   align-self: flex-start;
-  max-height: 120px; /* Ensure the image scales based on the height of the nav */
-  max-width: auto; /* Adjust this value as needed */
-  height: auto; /* Maintain aspect ratio */
+  max-height: 120px;
+  /* Ensure the image scales based on the height of the nav */
+  max-width: auto;
+  /* Adjust this value as needed */
+  height: auto;
+  /* Maintain aspect ratio */
   /* border: 3px yellow groove; */
 }
 
@@ -113,21 +127,25 @@
   box-shadow: 2px 2px 1px rgba(0, 120, 255, 1);
   /* display: none; */
 }
+
 .menub {
   background-color: blue;
   color: white;
   padding: 15px;
   border-radius: 30px;
 }
+
 .menub:hover {
   background-color: #ffd078;
 }
+
 .bodyDiv {
   background-color: rgba(7, 115, 238, 0.5);
   height: 100vh;
   width: 100vw;
   position: relative;
 }
+
 .bodyDiv h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 6rem;
@@ -137,6 +155,7 @@
   width: 80%;
   height: 40%;
 }
+
 .bodyDiv .p2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 5%;
@@ -145,6 +164,7 @@
   width: 45%;
   height: 20%;
 }
+
 .btn {
   display: flex;
   margin: 40px;
@@ -154,6 +174,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .bodyDiv button {
   height: 50px;
   width: 150px;
@@ -162,10 +183,12 @@
   background-color: rgb(16, 16, 100);
   border: none;
 }
+
 .bodyDiv button:hover {
   background-color: #ffd078;
   color: black;
 }
+
 .bodyDiv #video {
   z-index: -1;
   position: absolute;
@@ -175,19 +198,23 @@
   height: 100%;
   object-fit: cover;
 }
+
 .why1 {
   color: black;
   width: 50%;
 }
+
 .why1 h1 {
   font-size: 1.7rem;
   font-weight: 100;
   color: rgb(0, 120, 255);
 }
+
 #twoBox {
   display: flex;
   padding: 100px 40px 0 40px;
 }
+
 .why1 h1 ::before {
   content: " _";
   color: rgb(255, 201, 60);
@@ -195,6 +222,7 @@
   font-size: 3rem;
   padding-bottom: 30px;
 }
+
 .boxes {
   width: 50%;
   height: 70%;
@@ -204,6 +232,7 @@
   gap: 30px;
   padding-left: 70px;
 }
+
 .boxshadow,
 .boxshadows {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
@@ -213,10 +242,12 @@
   border-radius: 10px;
   padding: 10px;
 }
+
 .boxshadows {
   width: 245px;
   height: 400px;
 }
+
 .boxshadow h1,
 .boxshadows h1 {
   font-family: sans-serif;
@@ -226,6 +257,7 @@
   padding-bottom: 20px;
   font-weight: 600;
 }
+
 .boxshadow p,
 .boxshadows p {
   font-family: sans-serif;
@@ -235,6 +267,7 @@
   padding-right: 10px;
   margin: 0;
 }
+
 .icon {
   width: 80px;
   display: flex;
@@ -245,10 +278,12 @@
   background-color: rgb(240, 248, 255);
   color: rgb(0, 120, 255);
 }
+
 .icon:hover {
   background-color: rgb(0, 120, 255);
   color: white;
 }
+
 .why1 button {
   width: 200px;
   height: 67px;
@@ -257,6 +292,7 @@
   border: none;
   color: white;
 }
+
 .sliderContainer {
   display: block;
   margin-top: 30px;
@@ -267,15 +303,19 @@
   background-color: rgb(240, 248, 255);
   text-align: center;
 }
+
 .sliderContainer .top {
   margin-bottom: 65px;
 }
+
 .carousel-control-prev .fa-solid {
   padding-right: 100px;
 }
+
 .carousel-control-next .fa-solid {
   padding-left: 100px;
 }
+
 .carousel-control-prev .fa-solid,
 .carousel-control-next .fa-solid {
   color: rgb(255, 202, 64);
@@ -287,6 +327,7 @@
   width: 250px;
   object-fit: scale-down;
 }
+
 .row {
   flex-wrap: nowrap;
   display: flex;
@@ -297,6 +338,7 @@
   width: 100vw;
   height: 450px;
 }
+
 .col-md-4 {
   width: 33%;
   height: auto;
@@ -311,11 +353,13 @@
   height: auto;
   background-color: rgb(240, 248, 255);
 }
+
 .cardText h6 {
   font-weight: 1.3em;
   font-size: 1.5em;
   font-family: "Times New Roman", Times, serif;
 }
+
 .cardText h3 {
   display: inline-block;
   background-color: #00004d;
@@ -325,6 +369,7 @@
   border-radius: 5px;
   font-size: 15px;
 }
+
 .cardText button {
   display: inline-block;
   background-color: darkblue;
@@ -336,6 +381,7 @@
   margin-top: 10px;
   cursor: pointer;
 }
+
 .box {
   width: 95%;
   height: 350px;
@@ -345,6 +391,7 @@
   background-color: white;
   border-radius: 20px;
 }
+
 .back {
   background-image: url(back.jpg);
   background-repeat: no-repeat;
@@ -358,6 +405,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .back h1 {
   /* border: 3px solid green; */
   padding: 40px;
@@ -366,6 +414,7 @@
   color: wheat;
   margin: 0 auto;
 }
+
 .back h2 {
   color: white;
   margin: 0 auto;
@@ -374,6 +423,7 @@
   font-size: 70px;
   padding: 15px;
 }
+
 .card {
   /* border: 3px solid red; */
   position: relative;
@@ -388,6 +438,7 @@
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 }
+
 .card-image img {
   position: absolute;
   display: block;
@@ -413,12 +464,14 @@
 .card h5 {
   text-align: center;
 }
+
 .card p {
   margin: 0 auto;
   text-align: center;
   height: 100px;
   /* border: 2px solid red; */
 }
+
 .back .shell {
   display: flex;
   flex-direction: row;
@@ -430,6 +483,7 @@
   align-items: center;
   /* padding-bottom: 150px; */
 }
+
 .shell button {
   display: block;
   position: absolute;
@@ -442,6 +496,7 @@
   color: white;
   margin-top: 50px;
 }
+
 .absoluteMan {
   width: 100vw;
   height: 100vh;
@@ -449,6 +504,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .mainMan {
   width: 80%;
   height: 80vh;
@@ -459,6 +515,7 @@
   background-color: #effaff;
   border-radius: 50px;
 }
+
 .manbox {
   width: 35%;
   height: 545px;
@@ -466,28 +523,34 @@
   justify-content: center;
   align-items: center;
 }
+
 .man {
   width: 50%;
   height: 50%;
   border-radius: 100%;
 }
+
 .man img {
   object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 100%;
 }
+
 .manText {
   width: 55%;
   height: 545px;
   padding: 50px 0 10px 40px;
 }
+
 .manText p {
   padding: 20px 20px 0 0;
 }
+
 .elements h3 {
   font-size: 18px;
 }
+
 .elements div {
   margin: 10px 10px 0px 10px;
   padding: 15px 0 0 0;
@@ -499,6 +562,7 @@
   width: 100vw;
   height: 150vh;
 }
+
 .delivery .chinese {
   height: 50vh;
   width: 100vw;
@@ -508,6 +572,7 @@
   background-blend-mode: overlay;
   background-color: #171749;
 }
+
 .fullForm {
   display: flex;
   flex-direction: row;
@@ -524,6 +589,7 @@
   background-color: white;
   border: 3px solid #00004d;
 }
+
 .fullForm .naija {
   filter: hue-rotate(684deg) saturate(5) brightness(0.9);
   width: 100px;
@@ -533,14 +599,17 @@
   left: 50%;
   animation: rotate 10s linear infinite;
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 .fullForm .naija img {
   height: 100px;
   width: 100px;
@@ -551,6 +620,7 @@
   height: 50vh;
   width: 40%;
 }
+
 form {
   width: 50%;
   height: 70%;
@@ -559,6 +629,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form h1 {
   color: #00004d;
   font-size: 25px;
@@ -568,6 +639,7 @@ form h1 {
   font-weight: bold;
   padding-bottom: 40px;
 }
+
 .entries div input,
 select {
   width: 100%;
@@ -578,6 +650,7 @@ select {
   font-weight: bold;
   font-size: 16px;
 }
+
 form .entries {
   text-align: center;
   width: 100%;
@@ -587,11 +660,13 @@ form .entries {
   justify-content: center;
   align-items: center;
 }
+
 form .entries div {
   margin: 20px 0 0 20px;
   width: 200px;
   height: 50px;
 }
+
 form button {
   margin: 50px auto;
   padding: 30px 30px 30px 30px;
@@ -606,10 +681,12 @@ form button {
   justify-content: center;
   align-items: center;
 }
+
 .number {
   background-color: #effaff;
   height: 1100px;
 }
+
 .features {
   height: 50px;
   font-size: 50px;
@@ -623,6 +700,7 @@ form button {
   justify-content: space-around;
   text-align: center;
 }
+
 .countdown h1 {
   color: #0078ff;
   margin: 0 auto;
@@ -636,14 +714,17 @@ form button {
   text-align: center;
   font-size: 36px;
 }
+
 .doorstep p {
   margin: 0 auto;
 }
+
 .door {
   font-size: 4rem;
   display: flex;
   justify-content: center;
 }
+
 .page {
   border: 3px solid rgb(6, 6, 59);
   width: 40%;
@@ -652,11 +733,13 @@ form button {
   text-align: left;
   border-radius: 30px;
 }
+
 .page h1,
 p {
   margin: 40px;
   padding-left: 20px;
 }
+
 .workspage {
   width: 100%;
   height: 50%;
@@ -671,6 +754,7 @@ p {
   background-color: #effaff;
   height: 0px;
 }
+
 .rotate .elements {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
@@ -683,11 +767,13 @@ p {
   position: relative;
   top: -700px;
 }
+
 .rolls {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .rotate .text {
   width: 240px;
   height: 270px;
@@ -697,6 +783,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 .rotate .round {
   display: flex;
   justify-content: center;
@@ -708,6 +795,7 @@ p {
   background-color: #e2ebf0;
   transition: transform 1s ease-in-out;
 }
+
 .rotate .elements .box {
   align-items: center;
   border-radius: 0%;
@@ -715,9 +803,11 @@ p {
   background-color: #e2ebf0;
   height: 100px;
 }
+
 .rotate .elements .round:hover {
   transform: rotate(360deg);
 }
+
 .wave {
   background-color: #000b76;
   color: white;
@@ -726,6 +816,7 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 .leg {
   width: 85%;
   height: 300px;
@@ -740,17 +831,20 @@ p {
 footer {
   background-color: #000b76;
 }
+
 .footcontents {
   height: 100%;
   width: 100%;
 
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .footcontents h1 {
   margin: 20px 0 50px 0;
   font-weight: bold;
   font-size: 22px;
 }
+
 .footcontents h3 {
   margin: 20px 0 20px 0;
   font-weight: normal;
@@ -762,6 +856,7 @@ svg {
   padding: 0;
   display: block;
 }
+
 .mail {
   display: flex;
   flex-direction: column;
@@ -770,6 +865,7 @@ svg {
   margin: 40px;
   color: white;
 }
+
 .send {
   width: 100%;
   display: flex;
@@ -780,12 +876,14 @@ svg {
 
   font-size: 30px;
 }
+
 .send input {
   border-radius: 20px;
   width: 50%;
   height: 50px;
   text-align: center;
 }
+
 .send button {
   width: 120px;
   height: 50px;
@@ -795,11 +893,13 @@ svg {
   background-color: #ffc93c;
   border: none;
 }
+
 .send button span {
   font-size: 30px;
   width: 50px;
   height: 20px;
 }
+
 .copyright p {
   background-color: #000b76;
   margin: 0 auto;
@@ -808,9 +908,116 @@ svg {
   width: 100%;
   color: white;
 }
+
 .copyright {
   display: flex;
   justify-content: space-between;
   border-top: 2px solid white;
   padding: 40px 0 40px 0;
 }
+}
+
+@media only screen and (max-width:768px){
+
+  .head{
+    justify-content: space-around;
+  border-bottom: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100vw;
+}
+.para {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: #000b76;
+}
+
+.contact {
+  background-color: #000b76;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100vw;
+  height: 50px;
+  align-items: center;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.contact i {
+  color: white;
+}
+
+.contact i:hover {
+  color: skyblue;
+}
+
+.head span {
+  margin: 20px;
+  font-size: 1.01rem;
+}
+#Header-list {
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border: 10px solid green;
+  padding-right:30px ;
+}
+#Header-list img{
+  width: 100px;;
+  height: auto ;
+  padding: 0 auto;
+  margin: 0;
+}
+/* 
+.items{
+  display: none;
+} */
+.items {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+  list-style: none;
+  border: 3px solid red;
+  background-color: rgba(0,0,255,0.5);
+  width: 100vw;
+  height: 50vh;
+  /* z-index: 2; */
+  /* margin-top: 150px; */
+  position: absolute;
+  top:100px;
+}
+.items li, .items a{
+  border: 3px solid gold;
+  /* margin: 0 auto; */
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  width: 100%;
+}
+.items li:nth-child(5) {display: none;}
+.items li:nth-child(6) {display: none;}
+.items li i{display: none;}
+.items .dropdown-menu a{display: none;
+}
+.xmark{
+  border: 5px solid greenyellow;
+  width: 100%;
+  text-align: end;
+}
+
+}
+
