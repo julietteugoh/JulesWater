@@ -5,7 +5,7 @@
 }
 
 
-@media only screen and (min-width:767px){
+@media only screen and (min-width:769px){
   
 
 .head {
@@ -923,7 +923,7 @@ svg {
 }
 
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
 
   .head{
     justify-content: space-around;
